@@ -67,7 +67,7 @@ def test_hash(value):
     assert model.valuebytes8.hex().endswith("32")
     assert model.valuebytes16.hex().endswith("32")
     assert model.valuebytes32.hex().endswith("32")
-    assert model.valuestr64.endswith("32")
+    assert model.valuebytes64.hex().endswith("32")
     assert model.valuestr8.endswith("32")
     assert model.valuestr16.endswith("32")
     assert model.valuestr32.endswith("32")
