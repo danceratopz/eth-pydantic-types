@@ -7,12 +7,14 @@ from .hash import (
     HashBytes20,
     HashBytes32,
     HashBytes64,
+    HashBytes256,
     HashStr4,
     HashStr8,
     HashStr16,
     HashStr20,
     HashStr32,
     HashStr64,
+    HashStr256,
 )
 from .hex import HexBytes, HexStr
 
@@ -26,12 +28,14 @@ __all__ = [
     "HashBytes20",
     "HashBytes32",
     "HashBytes64",
+    "HashBytes256",
     "HashStr4",
     "HashStr8",
     "HashStr16",
     "HashStr20",
     "HashStr32",
     "HashStr64",
+    "HashStr256",
     "HexBytes",
     "HexStr",
 ]
